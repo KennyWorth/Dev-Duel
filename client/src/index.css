@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.submit {
+  height: 5em;
+  width: 100%;
+  background-color: #706c67;
+  color: #e38b06;
+  padding: 20px;
+  border-radius: 4%;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.submit:hover {
+  background-color: #e38b06;
+  color: #706c67;
+  cursor: pointer;
+}
+
+.tagline {
+  height: 8%;
+  width: 100%;
+  color: black;
+  font-size: 1.4vh;
+  background-color: #e38b06;
+  margin: 4% 10px 0 0;
+  border-radius: 5%;
+  border-style: outset;
+  border-width: 3px;
+  border-color: black;
+  padding: 2%;
+}
+
+.tagline2 {
+  height: 8%;
+  width: 100%;
+  color: black;
+  font-size: 1.4vh;
+  background-color: #b3afab;
+  margin: 4.2% 10px 0 0;
+  border-radius: 5%;
+  border-style: outset;
+  border-width: 3px;
+  border-color: #b3afab;
+  padding: 2%;
+}
+
+.duel-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.user-card {
+  background: #6d6363;
+  color: #e38b06;
+  height: 100%;
+  width: 43%;
+  font-size: .55rem;
+  margin: 30px;
+}
+
+.winner-user-card {
+  background: #e38b06;
+  height: 100%;
+  width: 43%;
+  font-size: .55rem;
+  margin: 30px;
+}
+
+.search-duel-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.winner-single {
+  color: #25f500;
+}
+
+.profile-pic-container {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px auto;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
